@@ -1,0 +1,36 @@
+INSTALLATION INSTRUCTIONS
+
+Dependencies
+
+Build-time dependencies:
+* GNU make
+* gcc
+* 
+
+Run-time dependencies:
+* perl (for epg setup)
+* proper kernel configuration (see below)
+
+Compilation
+
+Describe Makefile and compile options.
+Compilation is done by `make all'.
+`make install' installs the package (to /usr/local by default).
+
+Kernel configuration
+
+This package assumes that you have a properly configured kernel. If
+you run a distribution kernel, that should be the case. If you're
+building your own kernel, here are some recommendations:
+* Enable "video for linux".
+* Enable "analog or video tv device driver"
+* Check ...
+* Enable ...
+* Enable ...
+
+
+Using x2tv
+
+Command line options:
+
+Man page:
