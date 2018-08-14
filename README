@@ -1,0 +1,72 @@
+OVERVIEW OF x2tv
+==================================
+
+The x2tv provides an interface for a user, with a usb-tv-stick to watch tv.
+
+The directories within this package:
+
+* doc
+  Documentation.
+* etc
+  A sample configuration file for libsensors, and a script to convert
+  lm-sensors version 2 configuration files to work with version 3.
+* lib
+  The user-space sensors support library code (libsensors).
+* prog
+  Several supporting programs. The most important ones are:
+  - sensors-detect: A stand-alone program for detecting installed
+    hardware and recommending specific modules to load.
+  - sensors: A console tool to report sensor readings and set new
+    sensor limits.
+  - sensord: A daemon to watch sensor values and log problems. It
+    includes RRD support.
+* configs
+  This directory contains sample configurations of various boards,
+  contributed by users of lm-sensors.
+
+  Older sample configurations can be found on an old lm-sensors wiki
+  archived here:
+  http://web.archive.org/web/20150901092438/http://www.lm-sensors.org:80/wiki/Configurations
+
+  Please contribute back a configuration of your board so other users with
+  the same hardware won't need to recreate it again and again.
+
+INSTALLING x2tv
+---------------------
+
+See the INSTALL file.
+
+
+HARDWARE SUPPORT
+----------------
+
+
+
+LIBS
+----------
+
+
+
+
+APPLICATIONS
+------------
+
+
+
+
+TROUBLESHOOTING
+---------------
+
+
+
+
+OTHER INFORMATION
+-----------------
+
+
+
+LICENSE
+-------
+
+This software is released under the GNU Public
+License (GPL) v2, as included in the file GPL.
